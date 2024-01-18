@@ -107,6 +107,10 @@ header .container {
     padding: 50px 37px;
 }
 
+input:focus, textarea:focus {
+    outline-color: rgb(0, 88, 44);
+}
+
 #contact button {
     padding: 20px 95px;
     margin-bottom: 80px;
