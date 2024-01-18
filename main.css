@@ -1,0 +1,166 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1, h2 {
+    font-family: 'Bungee', sans-serif;
+    font-weight: normal;
+}
+
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header {
+    padding: 15px 0;
+    background-color: rgb(0, 88, 44);
+}
+
+header h1 {
+    font-size: 35px;
+}
+
+header h1, a {
+    color: white;
+}
+
+header li {
+    display: inline;
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container a {
+    margin-left: 15px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.container nav a:hover {
+    font-size: 22px;
+}
+
+#aboutshop {
+    display: flex;
+    margin: 50px 0;
+}
+
+#aboutshop > img {
+    height: 400px;
+    margin-right: 25px;
+}
+
+.conteudo {
+    display: inline;
+    justify-content: space-between;
+}
+
+.conteudo h2 {
+    font-size: 30px;
+    color: rgb(0, 88, 44);
+}
+
+.conteudo p {
+    margin-top: 30px;
+    font-size: 24px;
+}
+
+.logoimg li {
+    display: inline;
+}
+
+.logoimg img {
+    height: 25px;
+    margin-top: 10px;
+}
+
+#contact {
+    text-align: center;
+}
+
+#contact h2 {
+    margin-bottom: 20px;
+    color: rgb(0, 88, 44);
+    font-size: 30px;
+}
+
+#contact li {
+    display: block;
+    margin-bottom: 10px;
+}
+
+#contact input {
+    padding: 10px 30px;
+}
+
+#contact textarea {
+    resize: none;
+    padding: 50px 37px;
+}
+
+#contact button {
+    padding: 20px 95px;
+    margin-bottom: 80px;
+    background-color: rgb(0, 88, 44);
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#contact input:hover, textarea:hover {
+    background-color: rgb(224, 224, 224);
+}
+
+#contact button:hover {
+    background-color: rgb(0, 114, 57);
+    padding: 25px 100px;
+}
+
+footer {
+    background-color: rgb(0, 114, 57);
+}
+
+.rodape {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding-bottom: 25px;
+    padding-top: 25px;
+    color: white;
+}
+
+.rodape h2 {
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+#local h2 {
+    margin-bottom: 10px;
+    margin-left: 0px;
+}
+
+#redesocial li {
+    display: inline;
+    margin-right: 10px;
+}
+
+#redesocial img {
+    height: 35px;
+}
+
+#direitos {
+    padding: 10px 0;
+    color: white;
+    margin-left: 100px;
+}
+
